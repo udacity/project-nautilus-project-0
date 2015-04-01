@@ -1,20 +1,15 @@
 body {
   font-family: sans-serif;
   margin: 0;
-
 }
 
 .content {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  /*height: 100%;*/
 }
 
 .header {
-  /*height: 25vw;*/
-  /*max-height: 150px;*/
-  /*width: 100%;*/
   background-color: #F3F3F3;
   height: 50px;
   padding: 1em;
@@ -73,7 +68,6 @@ img.udacity-logo {
 img.my-picture {
   display: block;
   margin: 0 auto 30px;
-  /*max-width: 100%;*/
   width: 120px;
   height: 120px;
   border: 2px solid white;
