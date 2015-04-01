@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+
+}
+
+.content {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100%;*/
+}
+
+.header {
+  /*height: 25vw;*/
+  /*max-height: 150px;*/
+  /*width: 100%;*/
+  background-color: #F3F3F3;
+  height: 50px;
+  padding: 1em;
+}
+
+img.udacity-logo {
+  max-height: 100%;
+  width: 45px;
+  float: left;
+}
+
+.page-title {
+  color: #6B6B6B;
+  float: left;
+  font-size: 18px;
+  line-height: 49px;
+}
+
+@media screen and (max-width: 380px) {
+  .big-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  .big-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  .big-title {
+    font-size: 32px;
+  }
+}
+
+.hero {
+  padding: 4em;
+  max-width: 100%;
+  background-color: #294860;
+  color: white;
+}
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 30px;
+  /*max-width: 100%;*/
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.iama {
+  max-width: 100%;
+  color: #B3B3B3;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.my-info {
+  max-width: 100%;
+  color: #4E4E4E;
+  font-size: 24px;
+  line-height: 35px;
+  margin: 0px auto 45px;
+}
+
+.my-info:last-of-type {
+  margin: 0px;
+}
+
+.my-name {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.my-location {
+    color: rgba(255,255,255, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-me {
+  padding: 2.5em;
+}
+
+.about-content {
+    border-left: 1px solid #DFEAF1;
+    padding-left: 45px;
+}
